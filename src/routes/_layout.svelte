@@ -1,18 +1,9 @@
 <script>
+  import Tailwind from "../Tailwind.svelte";
   //export let segment;
 </script>
 
-<style lang="scss">
-  main {
-    .test {
-      width: 500px;
-      height: 500px;
-      background: red;
-    }
-  }
-</style>
-
 <main>
-  <div class="test" />
+  <Tailwind />
   <slot />
 </main>
